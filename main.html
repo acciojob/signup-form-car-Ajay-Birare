@@ -9,6 +9,53 @@
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
+		<form
+		 <form action="">
+      <label for="name">Name:</label>
+      <input type="text" name="" id="name" required/>
+      <label for="email">Email</label>
+      <input type="email" name="" id="email"  required/>
+
+      <input type="radio" id="gender_m" name="Male"required /><label for="gender_m"
+        >Male</label
+      >
+      <input type="radio" id="gender_f" name="Female" required />
+      <label for="gender_f">female</label>
+
+      <label for="cars">Car Brands</label>
+      <input
+        list="cars"
+        name="car"
+        id="cars"
+        placeholder="--Please choose an option--" required
+      />
+
+      <datalist id="cars">
+        <option value="BMW"></option>
+        <option value="Audi"></option>
+        <option value="Mercedez"></option>
+      </datalist>
+
+      <input type="number" name="Age" id="age" placeholder="Age" />
+      <label for="dob">DOB:</label>
+      <input type="date" name="DOB" id="dob"  required/>
+
+      <label for="tel">Phone Number</label>
+      <input
+        type="tel"
+        name="Phone Number"
+        placeholder="xxx-xxx-xxxx"
+        id="tel"
+      />
+
+      <label for="password">Password</label>
+      <input type="password" required name="Password" id="password" />
+
+      <input type="checkbox" name="Checkbox" id="checkbox" required />
+      <label for="checkbox"> I agree to the TOS</label>
+      <button type="submit">submit</button>
+
+    </form>
 </script>
 
 </body>
